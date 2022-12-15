@@ -9,8 +9,8 @@ module.exports = {
 };
 
 function checkToken(req, res) {
-  console.log('req.user', req.user);
-  res.json(req.exp);
+    console.log('req.user', req.user);
+    res.json(req.exp);
 }
 
 async function create(req, res) {
